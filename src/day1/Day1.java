@@ -9,15 +9,15 @@ public class Day1 {
 
     public static void main(String[] args) {
         // Variables declaration
-        ArrayList<Integer> inputs = new ArrayList<Integer>();
+        ArrayList<Integer> input = new ArrayList<Integer>();
         int result = 0;
 
-        // Inputs loading
+        // Input loading
         try {
             File file = new File("data/day1.txt");
             Scanner reader = new Scanner(file);
             while (reader.hasNextLine()) {
-                inputs.add(Integer.parseInt(reader.nextLine()));
+                input.add(Integer.parseInt(reader.nextLine()));
             }
             reader.close();
         } catch (FileNotFoundException e) {
@@ -26,8 +26,8 @@ public class Day1 {
         }
 
         // Part one
-        for(int i=1; i<inputs.size(); i++){
-            if(inputs.get(i) > inputs.get(i-1)){
+        for(int i=1; i<input.size(); i++){
+            if(input.get(i) > input.get(i-1)){
                 result++;
             }
         }
@@ -36,11 +36,11 @@ public class Day1 {
         // Part two
         result = 0;
 
-        for(int i=1; i<inputs.size() - 2; i++){
-            int a = inputs.get(i - 1);
-            int b = inputs.get(i);
-            int c = inputs.get(i + 1);
-            int d = inputs.get(i + 2);
+        for(int i=1; i<input.size() - 2; i++){
+            int a = input.get(i - 1);
+            int b = input.get(i);
+            int c = input.get(i + 1);
+            int d = input.get(i + 2);
             int bc = b+c;
             if((a+bc) < (bc+d)){
                 result++;
