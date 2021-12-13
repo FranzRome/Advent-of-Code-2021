@@ -1,9 +1,14 @@
+/*
+ * --- Day 3: Binary Diagnostic ---
+ */
+
 package Day3;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
+
 
 public class Day3 {
 

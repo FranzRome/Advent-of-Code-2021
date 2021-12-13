@@ -1,3 +1,7 @@
+/*
+ * --- Day 7: The Treachery of Whales ---
+ */
+
 package day7;
 
 import java.io.File;

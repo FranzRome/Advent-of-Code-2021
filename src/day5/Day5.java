@@ -1,3 +1,7 @@
+/*
+ * --- Day 5: Hydrothermal Venture ---
+ */
+
 package day5;
 
 import java.io.File;

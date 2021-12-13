@@ -1,3 +1,7 @@
+/*
+ * --- Day 9: Smoke Basin ---
+ */
+
 package day9;
 
 import java.io.File;

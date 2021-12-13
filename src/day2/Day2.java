@@ -1,3 +1,7 @@
+/*
+ * --- Day 2: Dive! ---
+ */
+
 package day2;
 
 import java.io.File;

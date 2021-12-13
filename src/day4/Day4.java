@@ -1,3 +1,7 @@
+/*
+ * --- Day 4: Giant Squid ---
+ */
+
 package day4;
 
 import java.io.File;
