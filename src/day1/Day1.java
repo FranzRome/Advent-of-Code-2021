@@ -1,3 +1,6 @@
+/*
+ * --- Day 1: Sonar Sweep ---
+ */
 package day1;
 
 import java.io.File;
